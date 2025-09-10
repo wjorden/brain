@@ -1,1 +1,0 @@
-/bin/cc -fPIC -shared -Wl,-soname,libhypothalamus.so -o libhypothalamus.so CMakeFiles/hypothalamus.dir/hypothalamus.c.o 

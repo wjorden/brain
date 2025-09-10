@@ -1,1 +1,0 @@
-/bin/cc -fPIC -shared -Wl,-soname,libbasal-ganglia.so -o libbasal-ganglia.so "CMakeFiles/basal-ganglia.dir/basal_ganglia.c.o" 

@@ -1,1 +1,0 @@
-/bin/cc -fPIC -shared -Wl,-soname,libinterfaces.so -o libinterfaces.so CMakeFiles/interfaces.dir/bus/broker.c.o CMakeFiles/interfaces.dir/bus/rb.c.o 

@@ -1,1 +1,0 @@
-/bin/cc -fPIC -shared -Wl,-soname,libthalamus.so -o libthalamus.so CMakeFiles/thalamus.dir/vision/thalamus_vision.c.o CMakeFiles/thalamus.dir/vision/frame_pool.c.o  -Wl,-rpath,/home/dwir/Documents/brain/build/interfaces ../interfaces/libinterfaces.so 

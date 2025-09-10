@@ -1,1 +1,0 @@
-/bin/cc -fPIC -shared -Wl,-soname,libcortex.so -o libcortex.so CMakeFiles/cortex.dir/vision/visual_cortex.c.o  -Wl,-rpath,/home/dwir/Documents/brain/build/thalamus:/home/dwir/Documents/brain/build/interfaces ../thalamus/libthalamus.so ../interfaces/libinterfaces.so 

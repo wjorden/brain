@@ -1,1 +1,0 @@
-/bin/cc -fPIC -shared -Wl,-soname,libcerebellum.so -o libcerebellum.so CMakeFiles/cerebellum.dir/cerebellum.c.o 
