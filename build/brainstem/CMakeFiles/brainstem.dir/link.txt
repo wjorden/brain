@@ -1,0 +1,1 @@
+/bin/cc -fPIC -shared -Wl,-soname,libbrainstem.so -o libbrainstem.so CMakeFiles/brainstem.dir/brainstem.c.o  -Wl,-rpath,/home/dwir/Documents/brain/build/interfaces ../interfaces/libinterfaces.so 

@@ -1,0 +1,2 @@
+CompileFlags:
+  Add: [-I./include, -I./src, -I/usr/include, -I/usr/local/include]

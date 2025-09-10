@@ -1,0 +1,179 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "periphery/libperiphery.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"periphery/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "periphery_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/dwir/Documents/brain/periphery"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/dwir/Documents/brain/periphery/.."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/dwir/Documents/brain/thalamus"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/dwir/Documents/brain/thalamus/audition"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/dwir/Documents/brain/thalamus/somatic"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/dwir/Documents/brain/thalamus/vision"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/dwir/Documents/brain/thalamus/.."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/dwir/Documents/brain/interfaces/bus"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/dwir/Documents/brain/interfaces/io"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "interfaces::@6ff2676d08d3dbc7a613"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "thalamus::@91237b999868f9e1b218"
+		}
+	],
+	"id" : "periphery::@4cea81122d3e6f48373b",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/dwir/Documents/brain/build/thalamus:/home/dwir/Documents/brain/build/interfaces",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../thalamus/libthalamus.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../interfaces/libinterfaces.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "periphery",
+	"nameOnDisk" : "libperiphery.so",
+	"paths" : 
+	{
+		"build" : "periphery",
+		"source" : "periphery"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "periphery/vision/camera_v4l2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "periphery/vision/camera_gray8.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

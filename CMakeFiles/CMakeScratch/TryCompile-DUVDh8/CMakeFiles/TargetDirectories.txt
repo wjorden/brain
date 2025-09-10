@@ -1,0 +1,3 @@
+/home/dwir/Documents/brain/CMakeFiles/CMakeScratch/TryCompile-DUVDh8/CMakeFiles/cmTC_e1632.dir
+/home/dwir/Documents/brain/CMakeFiles/CMakeScratch/TryCompile-DUVDh8/CMakeFiles/edit_cache.dir
+/home/dwir/Documents/brain/CMakeFiles/CMakeScratch/TryCompile-DUVDh8/CMakeFiles/rebuild_cache.dir

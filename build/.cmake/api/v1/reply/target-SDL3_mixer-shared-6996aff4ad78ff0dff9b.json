@@ -1,0 +1,610 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "vendored/SDL_mixer/libSDL3_mixer.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_options",
+			"sdl_target_link_option_version_file",
+			"sdl_target_link_options_no_undefined",
+			"target_link_libraries",
+			"target_compile_options",
+			"sdl_add_warning_options",
+			"target_compile_definitions",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"vendored/SDL_mixer/CMakeLists.txt",
+			"vendored/SDL_mixer/cmake/PrivateSdlFunctions.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 280,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 291,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 317,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 282,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 262,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 264,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 305,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 254,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 900,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 914,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 614,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 591,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 875,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 772,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 808,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 423,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 522,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 907,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 893,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 600,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 817,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 531,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 246,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 260,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 876,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fPIC -fvisibility=hidden"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wall"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "BUILD_SDL"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "DECODER_AIFF"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "DECODER_AU"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "DECODER_FLAC_DRFLAC"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "DECODER_FLAC_LIBFLAC"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "DECODER_MIDI_TIMIDITY"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "DECODER_MP3_DRMP3"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "DECODER_MP3_MPG123"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "DECODER_OGGVORBIS_STB"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "DECODER_OGGVORBIS_VORBISFILE"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "DECODER_VOC"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "DECODER_WAV"
+				},
+				{
+					"define" : "DLL_EXPORT"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "FLAC_DYNAMIC=\"libFLAC.so.12\""
+				},
+				{
+					"backtrace" : 22,
+					"define" : "MPG123_DYNAMIC=\"libmpg123.so.0\""
+				},
+				{
+					"backtrace" : 9,
+					"define" : "SDL_BUILD_MAJOR_VERSION=3"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "SDL_BUILD_MICRO_VERSION=0"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "SDL_BUILD_MINOR_VERSION=1"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "VORBIS_DYNAMIC=\"libvorbisfile.so.3\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 24,
+					"path" : "/home/dwir/Documents/brain/vendored/SDL_mixer/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/dwir/Documents/brain/vendored/SDL_mixer/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/dwir/Documents/brain/vendored/SDL_mixer/src/codecs"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/home/dwir/Documents/brain/build/vendored/SDL/include-revision"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/home/dwir/Documents/brain/vendored/SDL/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "SDL3-shared::@8fb704815aaca498baa2"
+		}
+	],
+	"id" : "SDL3_mixer-shared::@c0b90790335e9f4fd987",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--version-script=/home/dwir/Documents/brain/vendored/SDL_mixer/src/SDL_mixer.sym",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wl,--no-undefined",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/dwir/Documents/brain/build/vendored/SDL",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../SDL/libSDL3.so.0.3.0",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "SDL3_mixer-shared",
+	"nameOnDisk" : "libSDL3_mixer.so",
+	"paths" : 
+	{
+		"build" : "vendored/SDL_mixer",
+		"source" : "vendored/SDL_mixer"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/SDL_mixer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/SDL_mixer_metadata_tags.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/SDL_mixer_spatialization.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/decoder_aiff.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/decoder_au.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/decoder_drflac.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/decoder_drmp3.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/decoder_flac.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/decoder_fluidsynth.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/decoder_gme.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/decoder_mpg123.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/decoder_opus.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/decoder_raw.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/decoder_sinewave.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/decoder_stb_vorbis.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/decoder_timidity.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/decoder_voc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/decoder_vorbis.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/decoder_wav.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/decoder_wavpack.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/decoder_xmp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 26,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/timidity/common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 26,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/timidity/instrum.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 26,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/timidity/mix.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 26,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/timidity/output.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 26,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/timidity/playmidi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 26,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/timidity/readmidi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 26,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/timidity/resample.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 26,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/timidity/tables.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 26,
+			"compileGroupIndex" : 0,
+			"path" : "vendored/SDL_mixer/src/timidity/timidity.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

@@ -1,0 +1,1 @@
+/bin/cc -fPIC -shared -Wl,-soname,libperiphery.so -o libperiphery.so CMakeFiles/periphery.dir/vision/camera_v4l2.c.o CMakeFiles/periphery.dir/vision/camera_gray8.c.o  -Wl,-rpath,/home/dwir/Documents/brain/build/thalamus:/home/dwir/Documents/brain/build/interfaces ../thalamus/libthalamus.so ../interfaces/libinterfaces.so 

@@ -1,0 +1,2 @@
+/bin/ar qc libout.a CMakeFiles/out.dir/imgui_sdl3.cpp.o CMakeFiles/out.dir/__/vendored/imgui/imgui.cpp.o CMakeFiles/out.dir/__/vendored/imgui/imgui_draw.cpp.o CMakeFiles/out.dir/__/vendored/imgui/imgui_widgets.cpp.o CMakeFiles/out.dir/__/vendored/imgui/imgui_tables.cpp.o CMakeFiles/out.dir/__/vendored/imgui/backends/imgui_impl_opengl3.cpp.o CMakeFiles/out.dir/__/vendored/imgui/backends/imgui_impl_sdl3.cpp.o
+/bin/ranlib libout.a

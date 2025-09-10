@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendored" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendored/SDL_mixer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendored/SDL_ttf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendored/imgui" vcs="Git" />
+  </component>
+</project>

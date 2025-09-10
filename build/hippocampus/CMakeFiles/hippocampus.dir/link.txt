@@ -1,0 +1,1 @@
+/bin/cc -fPIC -shared -Wl,-soname,libhippocampus.so -o libhippocampus.so CMakeFiles/hippocampus.dir/hippocampus.c.o 

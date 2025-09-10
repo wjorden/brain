@@ -1,0 +1,1 @@
+/bin/cc -fPIC -shared -Wl,-soname,libspinal-cord.so -o libspinal-cord.so "CMakeFiles/spinal-cord.dir/spinal_reflex.c.o" 
