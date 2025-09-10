@@ -1,1 +1,0 @@
-/bin/cc   -D_GNU_SOURCE=1 CMakeFiles/cmTC_e1632.dir/src.c.o -o cmTC_e1632 
